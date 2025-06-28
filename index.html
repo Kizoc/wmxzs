@@ -1,6 +1,36 @@
-
-<a href="https://你的跳转链接.com" target="_blank">
-  <button style="padding:10px 20px; background-color:green; color:white; border:none; border-radius:6px;">
-    点我领券
-  </button>
-</a>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>按钮跳转页面</title>
+  <style>
+    body {
+      font-family: "微软雅黑", sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      padding-top: 50px;
+    }
+    button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>欢迎来到我的跳转页面</h1>
+  <button onclick="location.href='https://example.com/page1'">跳转到页面1</button>
+  <button onclick="location.href='https://example.com/page2'">跳转到页面2</button>
+  <button onclick="location.href='https://example.com/page3'">跳转到页面3</button>
+</body>
+</html>
